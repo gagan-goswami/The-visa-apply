@@ -738,6 +738,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: 1s;
+  overflow: hidden;
 }
 .how-it-works-section .how-it-works-item:hover {
   background-color: var(--Secondary-color);
@@ -757,6 +759,7 @@ a:hover {
   background-color: var(--Secondary-color);
   position: relative;
   z-index: 1;
+  transition: 1s;
 }
 .how-it-works-section .how-it-works-item .icon::before {
   content: "";
@@ -764,4 +767,43 @@ a:hover {
   inset: -5px;
   border: 2px dashed var(--white);
   border-radius: 50px;
+  transition: 1s;
+  z-index: -1;
+}
+.how-it-works-section .how-it-works-item .icon:hover::before {
+  transform: scale(1);
+  transition: 1s;
+  color: var(--primary-color);
+}
+
+.how-it-works-section .how-it-works-item:hover .icon {
+  background-color: var(--primary-color);
+  transition: 1s;
+}
+
+.how-it-works-section .how-it-works-item h3 {
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.how-it-works-section .how-it-works-item p {
+  font-size: 16px;
+  color: var(--white);
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.how-it-works-section .how-it-works-item span {
+  position: absolute;
+  font-weight: 800;
+  top: -20px;
+  right: -140px;
+  font-size: 60px;
+  line-height: 60px;
+  color: var(--white);
+  color: transparent;
+  -webkit-text-stroke: 1px var(--white);
 }

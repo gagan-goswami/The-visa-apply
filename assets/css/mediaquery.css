@@ -1,0 +1,99 @@
+@media (max-width: 992px) {
+  .header-section .nav-link::after {
+    width: 100%;
+    left: 0;
+    opacity: 1;
+    transform: scaleX(1);
+    height: 2px;
+  }
+
+  .header-section .offcanvas-body {
+    background-color: var(--white);
+    padding: 0;
+  }
+
+  .hero-section .slide .content h2,
+  .hero-section .slide .content h1,
+  .hero-section .slide .content .highlight {
+    font-size: 30px;
+  }
+
+  .hero-section .slide .content {
+    margin: 0px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .introduction-section .section-title,
+  .about-section .section-title,
+  .core-value-section .section-title,
+  .process-flow-section .section-title,
+  .Why-Choose-section .section-title,
+  .service-section .section-title,
+  .our-clints .section-title,
+  .Core-Strength .section-title,
+  .testimonial-section .section-title,
+  .gallery-section .section-title {
+    margin: 0px 0px 45px 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-section .hero-caption h1,
+  .hero-section .hero-caption h1 span {
+    font-size: 30px;
+  }
+
+  .header-section .conatact-btn {
+    display: none;
+  }
+
+  .Core-Strength .core-strength-item h3 {
+    font-size: 18px;
+  }
+
+  .breadcrumb-section .breadcrumb-heading h1 {
+    font-size: 24px;
+  }
+
+  .services-section .services-content h3 {
+    font-size: 24px;
+  }
+
+  .introduction-section .section-title .subtitle,
+  .about-section .section-title .subtitle,
+  .core-value-section .section-title .subtitle,
+  .service-section .section-title .subtitle,
+  .process-flow-section .section-title .subtitle,
+  .Why-Choose-section .section-title .subtitle,
+  .our-clints .section-title .subtitle,
+  .Core-Strength .section-title .subtitle,
+  .testimonial-section .section-title .subtitle,
+  .gallery-section .section-title .subtitle {
+    font-size: 18px;
+  }
+
+  .introduction-section .section-title h2,
+  .introduction-section .section-title h2 span,
+  .about-section .section-title h2,
+  .core-value-section .section-title h2,
+  .core-value-section .section-title h2 span,
+  .service-section .section-title h2,
+  .process-flow-section .section-title h2,
+  .Why-Choose-section .section-title h2,
+  .Why-Choose-section .section-title h2 span,
+  .our-clints .section-title h2,
+  .Core-Strength .section-title h2,
+  .Core-Strength .section-title h2 span,
+  .traning-section .section-title h2,
+  .testimonial-section .section-title h2,
+  .gallery-section .section-title h2 {
+    font-size: 24px;
+  }
+
+  .hero-section .owl-carousel .owl-nav button.owl-next,
+  .hero-section .owl-carousel .owl-nav button.owl-prev {
+    display: none;
+  }
+}

@@ -806,3 +806,177 @@ a:hover {
   color: transparent;
   -webkit-text-stroke: 1px var(--white);
 }
+
+/* ====how-it-works-section-end==== */
+
+/* ===country-we-offer-section-start=== */
+.country-we-offer-section {
+  padding: 45px 0px;
+}
+.country-we-offer-section .section-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.country-we-offer-section .section-title span {
+  font-size: 18px;
+  color: var(--Secondary-color);
+  font-weight: 600;
+}
+.country-we-offer-section .section-title h2 {
+  font-size: 40px;
+  color: var(--dark);
+  font-weight: 700;
+  margin: 15px 0px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.country-we-offer-section .section-title h2 span {
+  color: var(--Secondary-color);
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px 0px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.country-we-offer-section .country-we-offer-item {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 30px;
+  color: var(--white);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  transition: 1s;
+}
+
+.country-we-offer-section .country-we-offer-item:hover {
+  background-color: var(--Secondary-color);
+  transition: 1s;
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 30px;
+}
+
+.country-we-offer-section .country-we-offer-item img {
+  width: 90px;
+  width: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  transition: 1s;
+}
+
+.country-we-offer-section .country-we-offer-item .icon {
+  height: 90px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: var(--Secondary-color);
+  position: relative;
+  z-index: 1;
+}
+
+.country-we-offer-section .country-we-offer-item .icon::before {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  border: 2px dashed var(--white);
+  border-radius: 50px;
+}
+
+.country-we-offer-section .country-we-offer-item .icon:hover::before {
+  transform: scale(1);
+  transition: 1s;
+  color: var(--primary-color);
+}
+
+.country-we-offer-section .country-we-offer-item:hover .icon {
+  background-color: var(--primary-color);
+  transition: 1s;
+}
+
+.country-we-offer-section .country-we-offer-item h3,
+.country-we-offer-section .country-we-offer-item a {
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.country-we-offer-section .country-we-offer-item p {
+  font-size: 16px;
+  color: var(--white);
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.country-we-offer-section .country-we-offer-item span {
+  position: absolute;
+  font-weight: 800;
+  right: -140px;
+  font-size: 60px;
+  line-height: 60px;
+  color: var(--white);
+  color: transparent;
+  -webkit-text-stroke: 1px var(--white);
+}
+
+/* ===country-we-offer-section-end=== */
+
+/*====why-choose-section-start=== */
+
+.why-choose-section {
+  background-color: var(--primary-color);
+  overflow: hidden;
+}
+
+.why-choose-section .section-title span {
+  font-size: 18px;
+  color: var(--Secondary-color);
+  font-weight: 600;
+}
+
+.why-choose-section .section-title h2 {
+  font-size: 40px;
+  color: var(--white);
+  font-weight: 700;
+  margin: 15px 0px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.why-choose-section .section-title h2 .color-text {
+  color: var(--Secondary-color);
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px 0px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.why-choose-section .why-choose-content {
+  padding: 25px;
+}
+
+.why-choose-section .why-choose-image img,
+.why-choose-section .why-choose-image {
+  height: 100%;
+  object-fit: cover;
+}
+
+.why-choose-section .why-choose-list h3 {
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.why-choose-section .why-choose-list p {
+  font-size: 16px;
+  color: var(--white);
+  margin-bottom: 20px;
+  font-weight: 400;
+}

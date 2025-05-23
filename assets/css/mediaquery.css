@@ -11,37 +11,26 @@
     background-color: var(--white);
     padding: 0;
   }
-
-  .hero-section .slide .content h2,
-  .hero-section .slide .content h1,
-  .hero-section .slide .content .highlight {
-    font-size: 30px;
-  }
-
-  .hero-section .slide .content {
-    margin: 0px 0px;
-  }
 }
 
 @media (max-width: 768px) {
-  .introduction-section .section-title,
-  .about-section .section-title,
-  .core-value-section .section-title,
-  .process-flow-section .section-title,
-  .Why-Choose-section .section-title,
-  .service-section .section-title,
-  .our-clints .section-title,
-  .Core-Strength .section-title,
-  .testimonial-section .section-title,
-  .gallery-section .section-title {
-    margin: 0px 0px 45px 0px;
-    text-align: center;
+  .hero-section .hero-content h1,
+  .hero-section .hero-content h2 {
+    font-size: 40px;
+  }
+
+  .hero-section .hero-content p {
+    font-size: 16px;
+  }
+
+  .top-info-bar {
+    display: none;
   }
 }
 
 @media (max-width: 600px) {
   .hero-section .hero-caption h1,
-  .hero-section .hero-caption h1 span {
+  .hero-section .hero-caption h2 {
     font-size: 30px;
   }
 
@@ -49,51 +38,66 @@
     display: none;
   }
 
-  .Core-Strength .core-strength-item h3 {
-    font-size: 18px;
-  }
-
   .breadcrumb-section .breadcrumb-heading h1 {
-    font-size: 24px;
-  }
-
-  .services-section .services-content h3 {
-    font-size: 24px;
-  }
-
-  .introduction-section .section-title .subtitle,
-  .about-section .section-title .subtitle,
-  .core-value-section .section-title .subtitle,
-  .service-section .section-title .subtitle,
-  .process-flow-section .section-title .subtitle,
-  .Why-Choose-section .section-title .subtitle,
-  .our-clints .section-title .subtitle,
-  .Core-Strength .section-title .subtitle,
-  .testimonial-section .section-title .subtitle,
-  .gallery-section .section-title .subtitle {
-    font-size: 18px;
-  }
-
-  .introduction-section .section-title h2,
-  .introduction-section .section-title h2 span,
-  .about-section .section-title h2,
-  .core-value-section .section-title h2,
-  .core-value-section .section-title h2 span,
-  .service-section .section-title h2,
-  .process-flow-section .section-title h2,
-  .Why-Choose-section .section-title h2,
-  .Why-Choose-section .section-title h2 span,
-  .our-clints .section-title h2,
-  .Core-Strength .section-title h2,
-  .Core-Strength .section-title h2 span,
-  .traning-section .section-title h2,
-  .testimonial-section .section-title h2,
-  .gallery-section .section-title h2 {
     font-size: 24px;
   }
 
   .hero-section .owl-carousel .owl-nav button.owl-next,
   .hero-section .owl-carousel .owl-nav button.owl-prev {
     display: none;
+  }
+
+  .about-section .about-content h2,
+  .about-section .about-content h2 span,
+  .visa-type-section .section-title h2,
+  .visa-type-section .section-title h2 span,
+  .how-it-works-section .section-title h2,
+  .how-it-works-section .section-title h2 span,
+  .country-we-offer-section .section-title h2,
+  .country-we-offer-section .section-title h2 span,
+  .why-choose-section .section-title h2,
+  .why-choose-section .section-title h2 .color-text,
+  .testimonial-section .section-title h2,
+  .testimonial-section .section-title h2 span {
+    font-size: 30px;
+  }
+
+  .why-choose-section .why-choose-list h3 {
+    font-size: 18px;
+  }
+
+  .why-choose-section .why-choose-list p {
+    font-size: 14px;
+  }
+
+  .cta-section .cta-content h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section .hero-content h2,
+  .hero-section .hero-content h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-section .hero-content h1,
+  .hero-section .hero-content h2 {
+    font-size: 30px;
+  }
+
+  .funfact-section .funfact-item h2 {
+    font-size: 20px;
+  }
+
+  .funfact-section .funfact-item .icon {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+  }
+  .funfact-section .funfact-item p {
+    font-size: 14px;
   }
 }

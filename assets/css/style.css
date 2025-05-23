@@ -353,7 +353,8 @@ a:hover {
   padding: 100px 0px;
 }
 
-.hero-section .hero-content h1 {
+.hero-section .hero-content h1,
+.hero-section .hero-content h2 {
   font-size: 70px;
   color: var(--white);
   font-weight: 700;

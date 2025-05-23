@@ -58,7 +58,8 @@
   .why-choose-section .section-title h2,
   .why-choose-section .section-title h2 .color-text,
   .testimonial-section .section-title h2,
-  .testimonial-section .section-title h2 span {
+  .testimonial-section .section-title h2 span,
+  .business-visa-section .section-title h2 {
     font-size: 30px;
   }
 
@@ -120,5 +121,17 @@
   }
   .funfact-section .funfact-item p {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .business-visa-section .section-title h2,
+  .student-visa-section .section-title h2 {
+    font-size: 28px;
+  }
+
+  .business-visa-section h3,
+  .student-visa-section h3 {
+    font-size: 20px;
   }
 }

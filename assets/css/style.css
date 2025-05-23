@@ -848,7 +848,7 @@ a:hover {
 }
 
 .how-it-works-section .how-it-works-item h3 {
-  font-size: 24px;
+  font-size: 20px;
   color: var(--white);
   font-weight: 700;
   margin-bottom: 10px;
@@ -866,7 +866,7 @@ a:hover {
   position: absolute;
   font-weight: 800;
   right: -140px;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 60px;
   color: var(--white);
   color: transparent;
@@ -1511,69 +1511,275 @@ a:hover {
 
 /*===breadcrumb-section-start===*/
 
-.breadcrumb-section {
-  padding: 50px 0px;
-  position: relative;
-  background: url(../images/breadcrumb-bg.jpg);
+.site-breadcrumb {
+  background: url(../images/slider-2.jpg);
   background-size: cover;
-  background-position: center;
-  z-index: 1;
-  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
   display: flex;
+  flex-direction: column;
   align-items: center;
-}
-
-.breadcrumb-section::before {
-  position: absolute;
-  inset: 0;
-  content: "";
-  background-color: #00070a44;
-  z-index: -1;
-}
-
-.breadcrumb-section .breadcrumb-heading h2 {
-  font-size: 30px;
-  color: var(--white);
-  font-weight: 600;
-  z-index: 1;
-  margin: 0;
-  text-align: center;
-}
-
-.breadcrumb-section .breadcrumb {
   justify-content: center;
-  padding: 0;
-  margin: 0;
-}
-
-.breadcrumb-section .breadcrumb li {
-  font-size: 16px;
-  color: var(--white);
-  font-weight: 500;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
   z-index: 1;
-  padding: 5px 5px;
 }
 
-.breadcrumb-section .breadcrumb li a {
-  font-size: 16px;
+.site-breadcrumb::before {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: rgba(0, 10, 22, 0.7);
+  content: "";
+}
+
+.site-breadcrumb .breadcrumb-title {
+  font-size: 40px;
   color: var(--white);
-  font-weight: 500;
-  text-decoration: none;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
-.breadcrumb-section .breadcrumb li a:hover {
-  color: var(--secondary-color);
+.site-breadcrumb .breadcrumb-menu {
+  position: relative;
+  z-index: 1;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
-  color: var(--white);
-}
-
-.breadcrumb-section .breadcrumb-box {
-  background-color: var(--primary-color);
+.site-breadcrumb .breadcrumb-menu li {
+  position: relative;
   display: inline-block;
-  padding: 10px 20px;
-  border-radius: 10px;
+  margin-left: 25px;
+  color: var(--white);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.site-breadcrumb .breadcrumb-menu li a {
+  color: var(--white);
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.site-breadcrumb .breadcrumb-menu li.active {
+  color: var(--Secondary-color);
+}
+
+.site-breadcrumb .breadcrumb-menu li::before {
+  position: absolute;
+  content: "\f101"; /* Angle Right */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  right: -21px;
+  top: 1px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+
+.site-breadcrumb .breadcrumb-menu li:first-child {
+  margin-left: 0;
+}
+
+.site-breadcrumb .breadcrumb-menu li:last-child:before {
+  display: none;
+}
+
+.site-breadcrumb .breadcrumb-menu li a:hover {
+  color: #ef4d45;
 }
 
 /*===breadcrumb-section-end===*/
+
+/* ==== Business Visa Section start ==== */
+
+.business-visa-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color);
+}
+
+.business-visa-section .section-title {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.business-visa-section .section-title h2 {
+  font-size: 40px;
+  color: var(--dark);
+  font-weight: 700;
+  margin: 15px 0px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.business-visa-section .section-title p {
+  font-size: 18px;
+  color: var(--dark);
+  max-width: 600px;
+  margin: auto;
+}
+
+.business-visa-section h3 {
+  font-size: 30px;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.business-visa-section p,
+.business-visa-section ul {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.7;
+}
+
+.business-visa-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.business-visa-section ul li {
+  margin-bottom: 10px;
+}
+
+.business-visa-section .business-visa {
+  margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+
+.business-visa-section .conatact-btn {
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: ease-in-out 0.5s;
+  margin: 0px 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.business-visa-section .conatact-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--Secondary-color);
+  border-radius: 5px;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: ease-in-out 0.5s;
+}
+
+.business-visa-section .conatact-btn:hover:before {
+  color: var(--white);
+  transition: ease-in-out 0.5s;
+  transform: translateX(0);
+}
+
+/* ==== Business Visa Section end ==== */
+
+/* ===student-visa-section-start=== */
+
+.student-visa-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color);
+}
+
+.student-visa-section .section-title {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.student-visa-section .section-title h2 {
+  font-size: 40px;
+  color: var(--dark);
+  font-weight: 700;
+  margin: 15px 0px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.student-visa-section .section-title p {
+  font-size: 18px;
+  color: var(--dark);
+  max-width: 600px;
+  margin: auto;
+}
+
+.student-visa-section h3 {
+  font-size: 30px;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.student-visa-section p,
+.student-visa-section ul {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.7;
+}
+
+.student-visa-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.student-visa-section ul li {
+  margin-bottom: 10px;
+}
+
+.student-visa-section .student-visa {
+  margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+
+.student-visa-section .conatact-btn {
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: ease-in-out 0.5s;
+  margin: 0px 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.student-visa-section .conatact-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--Secondary-color);
+  border-radius: 5px;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: ease-in-out 0.5s;
+}
+
+.student-visa-section .conatact-btn:hover:before {
+  color: var(--white);
+  transition: ease-in-out 0.5s;
+  transform: translateX(0);
+}

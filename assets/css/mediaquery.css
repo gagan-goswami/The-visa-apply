@@ -126,12 +126,14 @@
 
 @media (max-width: 768px) {
   .business-visa-section .section-title h2,
-  .student-visa-section .section-title h2 {
+  .student-visa-section .section-title h2,
+  .job-seeker-visa-section .section-title h2 {
     font-size: 28px;
   }
 
   .business-visa-section h3,
-  .student-visa-section h3 {
+  .student-visa-section h3,
+  .job-seeker-visa-section h3 {
     font-size: 20px;
   }
 }

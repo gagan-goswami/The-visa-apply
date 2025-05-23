@@ -1879,3 +1879,97 @@ a:hover {
 }
 
 /* ===job-seeker-visa-section-end=== */
+
+/* ===tourist-visa-section-section-start=== */
+
+.tourist-visa-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color);
+}
+
+.tourist-visa-section .section-title {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.tourist-visa-section .section-title h2 {
+  font-size: 40px;
+  color: var(--dark);
+  font-weight: 700;
+  margin: 15px 0px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.tourist-visa-section .section-title p {
+  font-size: 18px;
+  color: var(--dark);
+  max-width: 600px;
+  margin: auto;
+}
+
+.tourist-visa-section h3 {
+  font-size: 30px;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.tourist-visa-section p,
+.tourist-visa-section ul {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.7;
+}
+
+.tourist-visa-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.tourist-visa-section ul li {
+  margin-bottom: 10px;
+}
+
+.tourist-visa-section .tourist-visa {
+  margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+
+.tourist-visa-section .conatact-btn {
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: ease-in-out 0.5s;
+  margin: 0px 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.tourist-visa-section .conatact-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--Secondary-color);
+  border-radius: 5px;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: ease-in-out 0.5s;
+}
+
+.tourist-visa-section .conatact-btn:hover:before {
+  color: var(--white);
+  transition: ease-in-out 0.5s;
+  transform: translateX(0);
+}
+
+/* ===job-seeker-visa-section-end=== */

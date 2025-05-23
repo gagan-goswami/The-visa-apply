@@ -135,7 +135,6 @@ a:hover {
   width: 100%;
   background-color: var(--white);
   border-bottom: 1px solid rgba(255, 255, 255, 0.096);
-  padding: 10px 0;
 }
 
 .header-section .is-sticky-menu {
@@ -145,12 +144,11 @@ a:hover {
   z-index: 9999;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 3px;
   animation: slideInDown 0.5s ease-in;
-  padding: 10px 0;
   background-color: var(--white);
 }
 
 .header-section .navbar-brand img {
-  height: 90px;
+  height: 80px;
 }
 
 .header-section .menu-bar .nav-link {
@@ -467,6 +465,37 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.feature-area .feature-item::before {
+  content: "";
+  position: absolute;
+  background-color: var(--Secondary-color);
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  bottom: -120px;
+  right: -120px;
+  z-index: -1;
+  transition: all 1s;
+}
+
+.feature-area .feature-item:hover:before {
+  height: 100%;
+  width: 100%;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 0;
+  transition: all 1s;
+}
+
+.feature-area .feature-item:hover .icon {
+  background-color: var(--primary-color);
+  transition: all 1.5s;
 }
 
 .feature-area .icon {
@@ -634,20 +663,33 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transition: 1s;
+  transition: all 1s;
   overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 
-.visa-type-section .visa-type-item:hover {
+.visa-type-section .visa-type-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateY(-50%);
   background-color: var(--Secondary-color);
-  transition: 1s;
+  z-index: -1;
+  transition: all 1s;
+}
+
+.visa-type-section .visa-type-item:hover::before {
+  background-color: var(--Secondary-color);
+  transition: all 1s;
   transform: translateY(-10px);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 30px;
+  transform: translateY(0);
 }
 
 .visa-type-section .visa-type-item:hover img {
   transform: scale(1.05);
-  transition: 1s;
+  transition: all 1s;
 }
 
 .visa-type-section .visa-type-item img {
@@ -740,15 +782,37 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transition: 1s;
+  transition: all 1.5s;
   overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
-.how-it-works-section .how-it-works-item:hover {
+.how-it-works-section .how-it-works-item::before {
+  content: "";
+  position: absolute;
+  background-color: var(--Secondary-color);
+  left: 45%;
+  height: 50px;
+  width: 50px;
+  bottom: -50%;
+  z-index: -1;
+  transition: all 1.5s;
+}
+
+.how-it-works-section .how-it-works-item:hover:before {
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 1.5s;
+  bottom: 0;
+}
+
+/* .how-it-works-section .how-it-works-item:hover {
   background-color: var(--Secondary-color);
   transition: 1s;
   transform: translateY(-10px);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 30px;
-}
+} */
 
 .how-it-works-section .how-it-works-item .icon {
   height: 90px;
@@ -912,7 +976,6 @@ a:hover {
 .country-we-offer-section .country-we-offer-item p {
   font-size: 16px;
   color: var(--white);
-  margin-bottom: 20px;
   font-weight: 400;
 }
 
@@ -1225,7 +1288,7 @@ a:hover {
   font-family: "Ubuntu", sans-serif;
 }
 
-.btn-cta {
+.cta-section .btn-cta {
   background-color: var(--primary-color);
   color: var(--white);
   padding: 14px 30px;
@@ -1235,11 +1298,28 @@ a:hover {
   font-size: 16px;
   transition: 0.3s ease;
   display: inline-block;
+  transition: ease-in-out 0.5s;
+  margin: 0px 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
 }
 
-.btn-cta:hover {
-  background-color: var(--white);
-  color: var(--Secondary-color);
+.cta-section .btn-cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--Secondary-color);
+  border-radius: 5px;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: ease-in-out 0.5s;
+}
+
+.cta-section .btn-cta:hover:before {
+  color: var(--white);
+  transition: ease-in-out 0.5s;
+  transform: translateX(0);
 }
 
 /* ====cta-section-end=== */

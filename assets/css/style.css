@@ -860,7 +860,7 @@ a:hover {
 }
 
 .country-we-offer-section .country-we-offer-item img {
-  width: 90px;
+  height: 90px;
   width: 90px;
   border-radius: 50%;
   object-fit: cover;

@@ -73,6 +73,27 @@
   .cta-section .cta-content h2 {
     font-size: 30px;
   }
+
+  .country-we-offer-section .country-we-offer-item {
+    padding: 5px;
+    flex-direction: column;
+  }
+
+  .country-we-offer-section .country-we-offer-item h3,
+  .country-we-offer-section .country-we-offer-item a {
+    font-size: 16px;
+  }
+
+  .country-we-offer-section .country-we-offer-item p {
+    font-size: 12px;
+  }
+
+  .country-we-offer-section .country-we-offer-item .icon,
+  .country-we-offer-section .country-we-offer-item img {
+    height: 60px;
+    width: 60px;
+    margin-left: 15px;
+  }
 }
 
 @media (max-width: 768px) {

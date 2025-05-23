@@ -28,21 +28,17 @@ $(".slider-2").owlCarousel({
   slideBy: 1,
   autoplay: true,
   loop: true,
-  nav: true,
-  dots: false,
-  navText: [
-    "<i class='fas fa-angle-left'></i>",
-    "<i class='fas fa-angle-right'></i>",
-  ],
+  dots: true,
+  margin: 20,
   responsive: {
     0: {
       items: 1,
     },
     767: {
-      items: 3,
+      items: 2,
     },
     991: {
-      items: 4,
+      items: 3,
     },
   },
 });

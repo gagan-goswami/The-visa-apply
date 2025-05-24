@@ -140,7 +140,8 @@
   .diplomatic-visa-section .section-title h2,
   .australia-visa-section .section-title h2,
   .usa-visa-section .section-title h2,
-  .united-kingdom-section .section-title h2 {
+  .united-kingdom-section .section-title h2,
+  .canada-visa-section .section-title h2 {
     font-size: 30px;
   }
 
@@ -155,7 +156,8 @@
   .diplomatic-visa-section h3,
   .australia-visa-section h3,
   .usa-visa-section h3,
-  .united-kingdom-section h3 {
+  .united-kingdom-section h3,
+  .canada-visa-section h3 {
     font-size: 20px;
   }
 }

@@ -2430,7 +2430,8 @@ a:hover {
 .australia-visa-section,
 .usa-visa-section,
 .united-kingdom-section,
-.canada-visa-section {
+.canada-visa-section,
+.newzealand-visa-section {
   padding: 90px 0px;
   background-color: var(--bg-color);
 }
@@ -2438,7 +2439,8 @@ a:hover {
 .australia-visa-section .section-title,
 .usa-visa-section .section-title,
 .united-kingdom-section .section-title,
-.canada-visa-section .section-title {
+.canada-visa-section .section-title,
+.newzealand-visa-section .section-title {
   margin-bottom: 45px;
   text-align: center;
 }
@@ -2446,7 +2448,8 @@ a:hover {
 .australia-visa-section .section-title h2,
 .usa-visa-section .section-title h2,
 .united-kingdom-section .section-title h2,
-.canada-visa-section .section-title h2 {
+.canada-visa-section .section-title h2,
+.newzealand-visa-section .section-title h2 {
   font-size: 40px;
   color: var(--dark);
   font-weight: 700;
@@ -2457,7 +2460,8 @@ a:hover {
 .australia-visa-section .section-title p,
 .usa-visa-section .section-title p,
 .united-kingdom-section .section-title p,
-.canada-visa-section .section-title p {
+.canada-visa-section .section-title p,
+.newzealand-visa-section .section-title p {
   font-size: 18px;
   color: var(--dark);
   max-width: 600px;
@@ -2467,7 +2471,8 @@ a:hover {
 .australia-visa-section h3,
 .usa-visa-section h3,
 .united-kingdom-section h3,
-.canada-visa-section h3 {
+.canada-visa-section h3,
+.newzealand-visa-section h3 {
   font-size: 30px;
   color: var(--primary-color);
   margin-bottom: 15px;
@@ -2478,10 +2483,12 @@ a:hover {
 .usa-visa-section p,
 .united-kingdom-section p,
 .canada-visa-section p,
+.newzealand-visa-section p,
 .australia-visa-section ul,
 .usa-visa-section ul,
 .united-kingdom-section ul,
-.canada-visa-section ul {
+.canada-visa-section ul,
+.newzealand-visa-section ul {
   font-size: 16px;
   color: #333;
   line-height: 1.7;
@@ -2491,21 +2498,24 @@ a:hover {
 .australia-visa-section ul,
 .usa-visa-section ul,
 .united-kingdom-section ul,
-.canada-visa-section ul {
+.canada-visa-section ul,
+.newzealand-visa-section ul {
   padding-left: 20px;
   list-style-type: disc;
 }
 .australia-visa-section ul li,
 .usa-visa-section ul li,
 .united-kingdom-section ul li,
-.canada-visa-section ul li {
+.canada-visa-section ul li,
+.newzealand-visa-section ul li {
   margin-bottom: 10px;
 }
 
 .australia-visa-section .australia,
 .usa-visa-section .united-states,
 .united-kingdom-section .united-kingdom,
-.canada-visa-section .canada {
+.canada-visa-section .canada,
+.newzealand-visa-section .newzealand {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 20px;
   background-color: var(--white);
@@ -2514,7 +2524,8 @@ a:hover {
 .australia-visa-section .conatact-btn,
 .usa-visa-section .conatact-btn,
 .united-kingdom-section .conatact-btn,
-.canada-visa-section .conatact-btn {
+.canada-visa-section .conatact-btn,
+.newzealand-visa-section .conatact-btn {
   color: var(--white);
   text-decoration: none;
   background-color: var(--primary-color);
@@ -2533,7 +2544,8 @@ a:hover {
 .australia-visa-section .conatact-btn::before,
 .usa-visa-section .conatact-btn::before,
 .united-kingdom-section .conatact-btn::before,
-.canada-visa-section .conatact-btn::before {
+.canada-visa-section .conatact-btn::before,
+.newzealand-visa-section .conatact-btn::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -2547,7 +2559,8 @@ a:hover {
 .australia-visa-section .conatact-btn:hover:before,
 .usa-visa-section .conatact-btn:hover::before,
 .united-kingdom-section .conatact-btn:hover:before,
-.canada-visa-section .conatact-btn:hover:before {
+.canada-visa-section .conatact-btn:hover:before,
+.newzealand-visa-section .conatact-btn:hover::before {
   color: var(--white);
   transition: ease-in-out 0.5s;
   transform: translateX(0);

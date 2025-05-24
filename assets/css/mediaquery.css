@@ -141,7 +141,8 @@
   .australia-visa-section .section-title h2,
   .usa-visa-section .section-title h2,
   .united-kingdom-section .section-title h2,
-  .canada-visa-section .section-title h2 {
+  .canada-visa-section .section-title h2,
+  .newzealand-visa-section .section-title h2 {
     font-size: 30px;
   }
 
@@ -157,7 +158,8 @@
   .australia-visa-section h3,
   .usa-visa-section h3,
   .united-kingdom-section h3,
-  .canada-visa-section h3 {
+  .canada-visa-section h3,
+  .newzealand-visa-section h3 {
     font-size: 20px;
   }
 }

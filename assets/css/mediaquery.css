@@ -128,14 +128,16 @@
   .business-visa-section .section-title h2,
   .student-visa-section .section-title h2,
   .job-seeker-visa-section .section-title h2,
-  .tourist-visa-section .section-title h2 {
-    font-size: 28px;
+  .tourist-visa-section .section-title h2,
+  .family-visa-section .section-title h2 {
+    font-size: 30px;
   }
 
   .business-visa-section h3,
   .student-visa-section h3,
   .job-seeker-visa-section h3,
-  .tourist-visa-section h3 {
+  .tourist-visa-section h3,
+  .family-visa-section h3 {
     font-size: 20px;
   }
 }

@@ -2566,3 +2566,60 @@ a:hover {
   transition: ease-in-out 0.5s;
   transform: translateX(0);
 }
+
+/* ===country-hero-section-end=== */
+
+/* ===branches-section-start=== */
+
+.branches-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 45px 0px;
+}
+
+.branches-section .section-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.branches-section .section-title h2 {
+  font-size: 40px;
+  color: var(--dark);
+  font-weight: 700;
+  margin: 15px 0px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.branches-section .branches-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.branches-section .branch-card {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.branches-section .branch-card:hover {
+  transform: translateY(-5px);
+}
+
+.branches-section .branch-title {
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 700;
+  margin: 10px 0px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.branches-section .branch-address {
+  font-size: 14px;
+  color: var(--white);
+  line-height: 1.5;
+}
+
+/* ===branches-section-end=== */

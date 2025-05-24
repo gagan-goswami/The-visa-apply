@@ -1649,11 +1649,8 @@ a:hover {
 }
 
 .business-visa-section .business-visa {
-  margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  height: 100%;
   padding: 20px;
-  border-radius: 10px;
   background-color: var(--white);
 }
 
@@ -1743,11 +1740,8 @@ a:hover {
 }
 
 .student-visa-section .student-visa {
-  margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  height: 100%;
   padding: 20px;
-  border-radius: 10px;
   background-color: var(--white);
 }
 
@@ -1837,11 +1831,8 @@ a:hover {
 }
 
 .job-seeker-visa-section .job-seeker-visa {
-  margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  height: 100%;
   padding: 20px;
-  border-radius: 10px;
   background-color: var(--white);
 }
 
@@ -1931,11 +1922,8 @@ a:hover {
 }
 
 .tourist-visa-section .tourist-visa {
-  margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  height: 100%;
   padding: 20px;
-  border-radius: 10px;
   background-color: var(--white);
 }
 
@@ -2025,11 +2013,8 @@ a:hover {
 }
 
 .family-visa-section .family-visa {
-  margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  height: 100%;
   padding: 20px;
-  border-radius: 10px;
   background-color: var(--white);
 }
 
@@ -2119,11 +2104,8 @@ a:hover {
 }
 
 .transit-visa-section .transit-visa {
-  margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  height: 100%;
   padding: 20px;
-  border-radius: 10px;
   background-color: var(--white);
 }
 
@@ -2161,3 +2143,386 @@ a:hover {
 }
 
 /* ===transit-visa-section-end=== */
+
+/* ===migrate-visa-section-start=== */
+
+.migrate-visa-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color);
+}
+
+.migrate-visa-section .section-title {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.migrate-visa-section .section-title h2 {
+  font-size: 40px;
+  color: var(--dark);
+  font-weight: 700;
+  margin: 15px 0px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.migrate-visa-section .section-title p {
+  font-size: 18px;
+  color: var(--dark);
+  max-width: 600px;
+  margin: auto;
+}
+
+.migrate-visa-section h3 {
+  font-size: 30px;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.migrate-visa-section p,
+.migrate-visa-section ul {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.7;
+}
+
+.migrate-visa-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.migrate-visa-section ul li {
+  margin-bottom: 10px;
+}
+
+.migrate-visa-section .migrate-visa {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: var(--white);
+}
+
+.migrate-visa-section .conatact-btn {
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: ease-in-out 0.5s;
+  margin: 0px 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.migrate-visa-section .conatact-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--Secondary-color);
+  border-radius: 5px;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: ease-in-out 0.5s;
+}
+
+.migrate-visa-section .conatact-btn:hover:before {
+  color: var(--white);
+  transition: ease-in-out 0.5s;
+  transform: translateX(0);
+}
+
+/* ===migrate-visa-section-end=== */
+
+/* ===consular-closings-section-start=== */
+
+.consular-closings-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color);
+}
+
+.consular-closings-section .section-title {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.consular-closings-section .section-title h2 {
+  font-size: 40px;
+  color: var(--dark);
+  font-weight: 700;
+  margin: 15px 0px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.consular-closings-section .section-title p {
+  font-size: 18px;
+  color: var(--dark);
+  max-width: 600px;
+  margin: auto;
+}
+
+.consular-closings-section h3 {
+  font-size: 30px;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.consular-closings-section p,
+.consular-closings-section ul {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.7;
+}
+
+.consular-closings-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.consular-closings-section ul li {
+  margin-bottom: 10px;
+}
+
+.consular-closings-section .consular-closings {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: var(--white);
+}
+
+.consular-closings-section .conatact-btn {
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: ease-in-out 0.5s;
+  margin: 0px 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.consular-closings-section .conatact-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--Secondary-color);
+  border-radius: 5px;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: ease-in-out 0.5s;
+}
+
+.consular-closings-section .conatact-btn:hover:before {
+  color: var(--white);
+  transition: ease-in-out 0.5s;
+  transform: translateX(0);
+}
+
+/* ===consular-closings-section-end=== */
+
+/* ===diplomatic-visa-section-start=== */
+
+.diplomatic-visa-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color);
+}
+
+.diplomatic-visa-section .section-title {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.diplomatic-visa-section .section-title h2 {
+  font-size: 40px;
+  color: var(--dark);
+  font-weight: 700;
+  margin: 15px 0px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.diplomatic-visa-section .section-title p {
+  font-size: 18px;
+  color: var(--dark);
+  max-width: 600px;
+  margin: auto;
+}
+
+.diplomatic-visa-section h3 {
+  font-size: 30px;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.diplomatic-visa-section p,
+.diplomatic-visa-section ul {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.7;
+}
+
+.diplomatic-visa-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.diplomatic-visa-section ul li {
+  margin-bottom: 10px;
+}
+
+.diplomatic-visa-section .diplomatic-visa {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: var(--white);
+}
+
+.diplomatic-visa-section .conatact-btn {
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: ease-in-out 0.5s;
+  margin: 0px 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.diplomatic-visa-section .conatact-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--Secondary-color);
+  border-radius: 5px;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: ease-in-out 0.5s;
+}
+
+.diplomatic-visa-section .conatact-btn:hover:before {
+  color: var(--white);
+  transition: ease-in-out 0.5s;
+  transform: translateX(0);
+}
+
+/* ===diplomatic-visa-section-end=== */
+
+/* ===country-hero-section-start=== */
+
+.country-hero {
+  padding: 200px 0px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.australia-visa-section,
+.usa-visa-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color);
+}
+
+.australia-visa-section .section-title,
+.usa-visa-section .section-title {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.australia-visa-section .section-title h2,
+.usa-visa-section .section-title h2 {
+  font-size: 40px;
+  color: var(--dark);
+  font-weight: 700;
+  margin: 15px 0px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.australia-visa-section .section-title p,
+.usa-visa-section .section-title p {
+  font-size: 18px;
+  color: var(--dark);
+  max-width: 600px;
+  margin: auto;
+}
+
+.australia-visa-section h3,
+.usa-visa-section h3 {
+  font-size: 30px;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.australia-visa-section p,
+.usa-visa-section p,
+.australia-visa-section ul,
+.usa-visa-section ul {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.7;
+  margin-top: 25px;
+}
+
+.australia-visa-section ul,
+.usa-visa-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+.australia-visa-section ul li,
+.usa-visa-section ul li {
+  margin-bottom: 10px;
+}
+
+.australia-visa-section .australia,
+.usa-visa-section .united-states {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: var(--white);
+}
+
+.australia-visa-section .conatact-btn,
+.usa-visa-section .conatact-btn {
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: ease-in-out 0.5s;
+  margin: 0px 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.australia-visa-section .conatact-btn::before,
+.usa-visa-section .conatact-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--Secondary-color);
+  border-radius: 5px;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: ease-in-out 0.5s;
+}
+
+.australia-visa-section .conatact-btn:hover:before,
+.usa-visa-section .conatact-btn:hover::before {
+  color: var(--white);
+  transition: ease-in-out 0.5s;
+  transform: translateX(0);
+}

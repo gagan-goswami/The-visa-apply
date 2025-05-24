@@ -95,6 +95,10 @@
     width: 60px;
     margin-left: 15px;
   }
+
+  .site-breadcrumb .breadcrumb-title {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -129,7 +133,13 @@
   .student-visa-section .section-title h2,
   .job-seeker-visa-section .section-title h2,
   .tourist-visa-section .section-title h2,
-  .family-visa-section .section-title h2 {
+  .family-visa-section .section-title h2,
+  .transit-visa-section .section-title h2,
+  .migrate-visa-section .section-title h2,
+  .consular-closings-section .section-title h2,
+  .diplomatic-visa-section .section-title h2,
+  .australia-visa-section .section-title h2,
+  .usa-visa-section .section-title h2 {
     font-size: 30px;
   }
 
@@ -137,7 +147,13 @@
   .student-visa-section h3,
   .job-seeker-visa-section h3,
   .tourist-visa-section h3,
-  .family-visa-section h3 {
+  .family-visa-section h3,
+  .transit-visa-section h3,
+  .migrate-visa-section h3,
+  .consular-closings-section h3,
+  .diplomatic-visa-section h3,
+  .australia-visa-section h3,
+  .usa-visa-section h3 {
     font-size: 20px;
   }
 }

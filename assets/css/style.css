@@ -2717,18 +2717,12 @@ a:hover {
 .contact-info-section .submit-btn {
   padding: 10px 20px;
   border-radius: 5px;
-  background-color: var(--white);
+  background-color: #26d466;
   border: none;
   font-size: 16px;
-  color: var(--dark);
+  color: var(--white);
   font-weight: 500;
   width: 100%;
-  transition: 0.5s;
-}
-
-.contact-info-section .submit-btn:hover {
-  background-color: var(--Secondary-color);
-  color: var(--white);
   transition: 0.5s;
 }
 

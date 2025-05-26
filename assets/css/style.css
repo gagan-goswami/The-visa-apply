@@ -624,6 +624,7 @@ a:hover {
 /* ====visa-type-section-start==== */
 .visa-type-section {
   padding: 45px 0px;
+  background-color: var(--white);
 }
 
 .visa-type-section .section-title {
@@ -739,6 +740,17 @@ a:hover {
   color: var(--white);
   margin-bottom: 20px;
   font-weight: 400;
+}
+
+.visa-type-section .cont-link a {
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.visa-type-section .cont-link a i {
+  margin-left: 5px;
 }
 
 /* ====visa-type-section-end==== */
@@ -988,6 +1000,17 @@ a:hover {
   color: var(--white);
   color: transparent;
   -webkit-text-stroke: 1px var(--white);
+}
+
+.country-we-offer-section .cont-link a {
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.country-we-offer-section .cont-link a i {
+  margin-left: 5px;
 }
 
 /* ===country-we-offer-section-end=== */
@@ -1327,7 +1350,7 @@ a:hover {
 /*===footer-section-start ===*/
 
 .footer-section {
-  background: var(--primary-color);
+  background: var(--bg-color);
   padding: 90px 0px 0px 0px;
   overflow: hidden;
 }
@@ -1345,7 +1368,7 @@ a:hover {
 .footer-section .footer-item h2 {
   font-size: 20px;
   font-weight: bold;
-  color: var(--white);
+  color: var(--primary-color);
   margin-bottom: 25px;
 }
 
@@ -1360,8 +1383,8 @@ a:hover {
 
 .footer-section .footer-item p {
   font-size: 16px;
-  color: var(--white);
-  font-weight: 300;
+  color: var(--dark);
+  font-weight: 400;
   display: flex;
 }
 
@@ -1371,7 +1394,7 @@ a:hover {
 
 .footer-section .footer-item .social-icon li {
   margin-right: 10px;
-  background-color: var(--white);
+  background-color: var(--primary-color);
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -1383,7 +1406,7 @@ a:hover {
 }
 
 .footer-section .footer-item .social-icon li a {
-  color: var(--Secondary-color);
+  color: var(--white);
   transition: 0.5s;
 }
 
@@ -1391,11 +1414,6 @@ a:hover {
   background-color: var(--primary-color);
   transition: ease-in-out 0.5s;
   transform: translateY(-6px);
-}
-
-.footer-section .footer-item .social-icon li:hover a {
-  color: var(--white);
-  transition: ease-in-out 0.2s;
 }
 
 .footer-section .footer-item .services li,
@@ -1415,22 +1433,22 @@ a:hover {
 .footer-section .footer-item .services li a,
 .footer-section .footer-item .contact-link li a,
 .footer-section .footer-item .quick-links li a {
-  color: var(--white);
+  color: var(--dark);
   text-decoration: none;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .footer-section .footer-item .services li a i,
 .footer-section .footer-item .quick-links li a i {
   margin-right: 5px;
-  color: var(--white);
+  color: var(--primary-color);
   font-size: 14px;
 }
 
 .footer-section .footer-item .contact-link li i {
   font-size: 18px;
-  color: var(--white);
+  color: var(--primary-color);
   margin-right: 5px;
 }
 
@@ -1438,18 +1456,21 @@ a:hover {
   margin-top: 50px;
   text-align: center;
   position: relative;
-  background-color: var(--white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  background-color: var(--primary-color);
   padding: 20px 0px;
 }
 
 .footer-section .copy-right p {
   font-size: 16px;
-  color: var(--dark);
+  color: var(--white);
   margin: 0;
+}
+
+.footer-section .copy-right p a {
+  font-size: 16px;
+  color: var(--white);
+  text-decoration: underline;
+  font-weight: 300;
 }
 
 .footer-section .top-button .top {

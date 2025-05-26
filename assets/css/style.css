@@ -2629,6 +2629,7 @@ a:hover {
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
+  margin: 0px 15px;
 }
 
 .branches-section .branch-card:hover {
@@ -2678,7 +2679,7 @@ a:hover {
 .contact-info-section .service-inner-item {
   margin-bottom: 20px;
   background-color: var(--primary-color);
-  padding: 27px 10px;
+  padding: 21px 10px;
   border-radius: 5px;
 }
 

@@ -198,9 +198,10 @@
 
   <section class="branches-section">
     <div class="section-title">
+      <span>Branches</span>
       <h2>Our Branches</h2>
     </div>
-    <div class="branches-grid">
+    <div class="branches-grid" data-aos="fade-down" data-aos-duration="800">
       <div class="branch-card">
         <div class="branch-title">Mumbai</div>
         <div class="branch-address">
@@ -239,15 +240,19 @@
 
   <!-- contact-info-section-start -->
 
-  <section class="contact-info">
+  <section class="contact-info-section">
     <div class="container">
+      <div class="section-title">
+        <span>Contact Us</span>
+        <h2>Get in Touch with Our Experts</h2>
+      </div>
       <div class="row">
         <div class="col-lg-6">
-          <div class="contact-item aos-init" data-aos="fade-down" data-aos-duration="1000">
+          <div class="contact-item aos-init" data-aos="fade-down" data-aos-duration="800">
             <div class="service-inner-item">
               <div class="d-flex">
                 <div class="flex-shrink-0 icon">
-                  <i class="fas fa-phone-alt"></i>
+                  <i class="fa-solid fa-phone"></i>
                 </div>
                 <div class="flex-grow-1 ms-3">
                   <h2 class="mt-0">Contact Details:</h2>
@@ -305,7 +310,7 @@
 
         <div class="col-lg-6">
           <div class="contact-form aos-init" data-aos="fade-down" data-aos-duration="1000">
-            <form>
+            <form id="whatsappForm">
               <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control" id="name" placeholder="Your Name" required>
@@ -322,7 +327,7 @@
                 <label for="message" class="form-label">Message</label>
                 <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="submit-btn">Submit via WhatsApp</button>
             </form>
           </div>
         </div>

@@ -159,6 +159,7 @@ a:hover {
   font-size: 16px;
   position: relative;
   z-index: 1;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .header-section .nav-link::after {
@@ -195,6 +196,7 @@ a:hover {
   display: none;
   overflow: hidden;
   border: 0;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .header-section .dropdown:hover .dropdown-menu {
@@ -218,6 +220,7 @@ a:hover {
   font-weight: 500;
   text-decoration: none;
   color: var(--primary-color);
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .header-section .dropdown i {
@@ -1370,6 +1373,7 @@ a:hover {
   font-weight: bold;
   color: var(--primary-color);
   margin-bottom: 25px;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .footer-section .footer-item .social-icon,
@@ -1566,6 +1570,7 @@ a:hover {
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .site-breadcrumb .breadcrumb-menu {
@@ -1652,6 +1657,7 @@ a:hover {
   color: var(--primary-color);
   margin-bottom: 15px;
   font-weight: 600;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .business-visa-section p,
@@ -1743,6 +1749,7 @@ a:hover {
   color: var(--primary-color);
   margin-bottom: 15px;
   font-weight: 600;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .student-visa-section p,
@@ -1834,6 +1841,7 @@ a:hover {
   color: var(--primary-color);
   margin-bottom: 15px;
   font-weight: 600;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .job-seeker-visa-section p,
@@ -1925,6 +1933,7 @@ a:hover {
   color: var(--primary-color);
   margin-bottom: 15px;
   font-weight: 600;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .tourist-visa-section p,
@@ -2016,6 +2025,7 @@ a:hover {
   color: var(--primary-color);
   margin-bottom: 15px;
   font-weight: 600;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .family-visa-section p,
@@ -2107,6 +2117,7 @@ a:hover {
   color: var(--primary-color);
   margin-bottom: 15px;
   font-weight: 600;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .transit-visa-section p,
@@ -2198,6 +2209,7 @@ a:hover {
   color: var(--primary-color);
   margin-bottom: 15px;
   font-weight: 600;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .migrate-visa-section p,
@@ -2289,6 +2301,7 @@ a:hover {
   color: var(--primary-color);
   margin-bottom: 15px;
   font-weight: 600;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .consular-closings-section p,
@@ -2380,6 +2393,7 @@ a:hover {
   color: var(--primary-color);
   margin-bottom: 15px;
   font-weight: 600;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .diplomatic-visa-section p,
@@ -2499,6 +2513,7 @@ a:hover {
   color: var(--primary-color);
   margin-bottom: 15px;
   font-weight: 600;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .australia-visa-section p,
@@ -2687,6 +2702,7 @@ a:hover {
   font-size: 20px;
   color: var(--white);
   font-weight: 700;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .contact-info-section .service-inner-item .icon {
@@ -2730,6 +2746,7 @@ a:hover {
 
 .contact-info-section .form-label {
   color: var(--white);
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
 .contact-info-section .form-control::placeholder {

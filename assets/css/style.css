@@ -2831,3 +2831,47 @@ a:hover {
     width: 100%;
   }
 }
+
+/* ===legal page start=== */
+
+.legal {
+  padding: 90px 0px;
+}
+
+.legal .doc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.legal .doc-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.legal .doc-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.legal .doc-card a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.legal .doc-card a:hover {
+  background-color: #388e3c;
+}
+
+/* ===legal page end===*/

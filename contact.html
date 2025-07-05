@@ -72,7 +72,7 @@
         "openingHours": "Mo-Fr 09:00-18:00",
         "founder": "Anand Kumar",
         "foundingDate": "2023",
-        "sameAs": ["https://www.facebook.com/profile.php?id=61576883361547#", "https://www.instagram.com/visa_apply_524?igsh=MWZleXE4cmdvam83MA==", ],
+        "sameAs": ["https://www.facebook.com/profile.php?id=61576883361547#", "https://www.instagram.com/visaapply_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", ],
         "priceRange": "$$",
         "areaServed": {
           "@type": "Country",
@@ -97,7 +97,8 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/visa_apply_524?igsh=MWZleXE4cmdvam83MA==" aria-label="Instagram">
+                <a href="https://www.instagram.com/visaapply_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                  aria-label="Instagram">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
@@ -173,7 +174,16 @@
                     </div>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="changeColor(this)" href="contact.html">Contact us</a>
+                    <a class="nav-link" onclick="changeColor(this)" href="blog.html">Blog
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" onclick="changeColor(this)" href="legal.html">Legal
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" onclick="changeColor(this)" href="contact.html">Contact
+                      us</a>
                   </li>
                 </ul>
               </div>
@@ -348,7 +358,8 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/visa_apply_524?igsh=MWZleXE4cmdvam83MA==">
+                <a
+                  href="https://www.instagram.com/visaapply_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
@@ -482,7 +493,22 @@
     </div>
   </footer>
   <!-- footer-section-end -->
-  <!-- footer-section-end -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const currentPath = window.location.pathname.split("/").pop(); // get current page
+      const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+      navLinks.forEach(link => {
+        const linkPath = link.getAttribute("href");
+
+        if (linkPath === currentPath || (currentPath === "" && linkPath === "index.html")) {
+          link.classList.add("active");
+        } else {
+          link.classList.remove("active");
+        }
+      });
+    });
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

@@ -973,6 +973,25 @@
             </a>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const currentPath = window.location.pathname.split("/").pop(); // get current page
+            const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+            navLinks.forEach(link => {
+                const linkPath = link.getAttribute("href");
+
+                if (linkPath === currentPath || (currentPath === "" && linkPath === "index.html")) {
+                    link.classList.add("active");
+                } else {
+                    link.classList.remove("active");
+                }
+            });
+        });
+    </script>
+
+
     <!-- footer-section-end -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>

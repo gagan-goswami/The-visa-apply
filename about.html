@@ -92,23 +92,15 @@
                     <div class="col-md-6">
                         <ul class="social-icons">
                             <li>
-                                <a href="#" aria-label="Facebook">
+                                <a href=" https://www.facebook.com/profile.php?id=61576883361547#"
+                                    aria-label="Facebook">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" aria-label="Twitter">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" aria-label="Instagram">
+                                <a href="https://www.instagram.com/visa_apply_524?igsh=MWZleXE4cmdvam83MA=="
+                                    aria-label="Instagram">
                                     <i class="fab fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" aria-label="LinkedIn">
-                                    <i class="fab fa-linkedin-in"></i>
                                 </a>
                             </li>
                         </ul>
@@ -116,12 +108,12 @@
                     <div class="col-md-6 text-end">
                         <ul class="contact-info">
                             <li>
-                                <a href="mailto:info@thevisaapply.com">
-                                    <i class="fas fa-envelope"></i> info@thevisaapply.com </a>
+                                <a href="mailto:applyvisa524@gmail.com">
+                                    <i class="fas fa-envelope"></i> applyvisa524@gmail.com </a>
                             </li>
                             <li>
-                                <a href="tel:+917065559517">
-                                    <i class="fa-solid fa-phone"></i> +91 7065559517 </a>
+                                <a href="tel:+919971139586">
+                                    <i class="fa-solid fa-phone"></i> +91 9971139586 </a>
                             </li>
                         </ul>
                     </div>
@@ -601,6 +593,25 @@
             </a>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const currentPath = window.location.pathname.split("/").pop(); // get current page
+            const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+            navLinks.forEach(link => {
+                const linkPath = link.getAttribute("href");
+
+                if (linkPath === currentPath || (currentPath === "" && linkPath === "index.html")) {
+                    link.classList.add("active");
+                } else {
+                    link.classList.remove("active");
+                }
+            });
+        });
+    </script>
+
+
     <!-- footer-section-end -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>

@@ -1126,6 +1126,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   min-height: 320px;
+  transition: 1s;
 }
 
 .testimonial-section .testimonial-item:hover {

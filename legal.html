@@ -58,6 +58,8 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
 
     <!-- Structured Data (Schema.org JSON-LD) -->
     <script type="application/ld+json">
@@ -229,48 +231,56 @@
     </div>
     <!-- breadcrumb-section-end -->
 
+    <!-- legal-document-section-start -->
 
     <section class="legal">
         <div class="container">
-            <div class="section-title">PDF Documents</div>
-            <div class="doc-grid">
-                <div class="doc-card">
-                    <img src="pdf-preview-1.jpg" alt="FSSAI Certificate">
-                    <p>Spice Part A Approval Letter</p>
-                    <a href="docs/fssai-certificate.pdf" target="_blank">View PDF</a>
-                </div>
-
-                <div class="doc-card">
-                    <img src="pdf-preview-2.jpg" alt="GST Registration">
-                    <p>GST Registration</p>
-                    <a href="docs/gst-registration.pdf" target="_blank">Download</a>
-                </div>
-
-                <div class="doc-card">
-                    <img src="pdf-preview-2.jpg" alt="GST Registration">
-                    <p>GST Registration</p>
-                    <a href="docs/gst-registration.pdf" target="_blank">Download</a>
-                </div>
-                <!-- Add more PDF cards as needed -->
+            <div class="section-title">
+                <h2>Our Documents</h2>
             </div>
-
-            <div class="section-title" style="margin-top: 60px;">Image Documents</div>
             <div class="doc-grid">
+                <!-- PDF Thumbnail 1 -->
                 <div class="doc-card">
-                    <img src="images/shop-license.jpg" alt="Shop License">
-                    <p>Shop & Establishment License</p>
-                    <a href="images/shop-license.jpg" target="_blank">View Image</a>
+                    <a href="./assets/images/legal/document-1.pdf" data-lightbox="docs"
+                        data-title="Spice Part A Approval Letter">
+                        <img src="./assets/images/legal/document-1-thumb.png" alt="Spice Part A Approval Letter">
+                    </a>
+                    <div class="doc-actions">
+                        <a href="./assets/images/legal/document-1.pdf" target="_blank" class="btn-view">View PDF</a>
+                    </div>
                 </div>
 
+                <!-- PDF Thumbnail 2 -->
                 <div class="doc-card">
-                    <img src="images/trademark.jpg" alt="Trademark Certificate">
-                    <p>Trademark Certificate</p>
-                    <a href="images/trademark.jpg" target="_blank">View Image</a>
+                    <a href="./assets/images/legal/document-2.pdf" data-lightbox="docs" data-title="GST Registration">
+                        <img src="./assets/images/legal/document-2-thumb.png" alt="GST Registration">
+                    </a>
+                    <div class="doc-actions">
+                        <a href="./assets/images/legal/document-2.pdf" target="_blank" class="btn-view">View PDF</a>
+                    </div>
                 </div>
-                <!-- Add more image cards as needed -->
+
+                <!-- PDF Thumbnail 3 -->
+                <div class="doc-card">
+                    <a href="./assets/images/legal/document-3.pdf" data-lightbox="docs" data-title="Company PAN Card">
+                        <img src="./assets/images/legal/document-thumb-3.png" alt="Company PAN Card">
+                    </a>
+                    <div class="doc-actions">
+                        <a href="./assets/images/legal/document-3.pdf" target="_blank" class="btn-view">View PDF</a>
+                    </div>
+                </div>
+
+                <!-- Image Document -->
+                <div class="doc-card">
+                    <a href="./assets/images/legal/pan-card.jpeg" data-lightbox="docs" data-title="MSME Certificate">
+                        <img src="./assets/images/legal/pan-card.jpeg" alt="MSME Certificate">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- legal-document-section-end -->
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
